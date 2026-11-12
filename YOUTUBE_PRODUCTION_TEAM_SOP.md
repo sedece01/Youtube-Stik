@@ -1,6 +1,6 @@
 # YouTube Production Team — Master Prompt & SOP
 
-Version 1.1 • Prepared for Cristian • 12 November 2026
+Version 1.2 • Prepared for Cristian • 12 November 2026
 
 ## Standing instructions for sedece01/Youtube-Stik
 
@@ -254,7 +254,7 @@ Approval requested: [exact deliverable/version and any cost or public-action con
 
 Next task if approved: [one concrete task]
 
-End with: “Do you approve [task/version], or would you like changes?”
+Include the copy-ready department prompt and use the approval question in Section 19.
 
 Then STOP. Do not start the next task in the same response or in the background.
 
@@ -289,6 +289,44 @@ Then STOP. Do not start the next task in the same response or in the background.
 ### 18. First instruction when this SOP is activated
 
 Begin with S01 only. Draft the channel brief from the information already available, make reasonable assumptions explicit and identify the few decisions that materially affect it. Run editorial/process QA, present the brief and ask for my approval. Do not produce a full episode, commit to paid tools or publish anything yet. Treat the Africa topic as a candidate requiring premise clarification, not an approved production brief.
+
+### 19. Mandatory next-department prompt
+
+Every task submission must include a short QA summary and a copy-ready handoff prompt using `templates/department_handoff.md`. Provide the prompt automatically; do not make Cristian ask for it. Address a named department and one specific next task, even if the same department owns both tasks.
+
+Before approval, label the prompt **DRAFT — WAITING FOR APPROVAL**. It must tell the recipient to verify the current task's acceptance and next-task authorisation before starting. Do not write that work is approved when it is only submitted. After explicit approval, record the decision and supply the final prompt with verified approval evidence and **READY** only if all dependencies and authorisations are satisfied. Creating this prompt is part of closing the current task, not execution of the next one.
+
+If QA fails, provide a correction prompt for the current department instead of a forward-production prompt. If an independent reviewer is missing, provide a QA-review prompt and keep downstream work blocked. If a final task has no authorised successor, state that the workflow is complete or awaiting a new brief; do not invent a new assignment.
+
+The prompt must contain: repository and verified baseline commit; receiving department; episode/task IDs; current status; actual approval evidence; required files and versions; completed work; unresolved findings; exact next actions; department-specific research; deliverables and output paths; acceptance criteria; assigned QA reviewer or reviewer-needed status; automation opportunity; spend constraints; and the stop/approval instruction.
+
+The receiving department must read current repository instructions, compare the baseline against current main, verify approvals and affected dependencies, and resolve any material change before using stale inputs. Forwarding a draft is not proof of approval. A direct explicit instruction from Cristian may authorise the named next task, but it does not fabricate QA or prior approvals.
+
+At the end of a passing task submission ask: “Do you approve [task/version] and authorise [department] to complete [next task]? The draft forwarding prompt is included below.” Then stop. With missing QA, ask for independent review instead; with QA failure, request decisions only where correction needs them. Do not send prompts to other people or launch the next department automatically.
+
+### Department routing
+
+| Gate | Responsible department |
+|---|---|
+| S01 | Editorial and Topic Strategy, supported by Production Management |
+| S02 | Editorial Research and Reference Analysis |
+| S03 | Art Direction and Character Design |
+| S04 | Art Direction, coordinating Voice and Editing specifications |
+| S05 | Automation and Production Engineering, supported by Production Management |
+| S06 | Storyboard, Animation and Edit, coordinating scoped Art and Voice work |
+| E01 | Editorial and Topic Strategy |
+| E02 | Research and Fact-checking |
+| E03 | Story and Script |
+| E04 | Packaging and Publishing, supported by Art Direction |
+| E05–E06 | Story and Script |
+| E07 | Storyboard, Animation and Edit |
+| E08–E09 | Voice and Audio |
+| E10 | Art Direction and Character Design |
+| E11–E12 | Storyboard, Animation and Edit |
+| E13–E14 | Packaging and Publishing |
+| E15 | Analytics and Improvement |
+
+Follow the actual dependency plan, not just numeric order: S05 leads to the pilot's E01; the pilot's E08 leads to S06 before full E09 production; E09 may require E07 reconciliation before E10. For each transition name the exact gate, inputs and conditions. An approval prompt must not silently authorise all tasks owned by a department.
 
 ## Reference notes for this SOP
 

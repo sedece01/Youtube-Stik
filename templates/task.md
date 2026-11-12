@@ -23,3 +23,8 @@
 Allowed states: READY, IN PROGRESS, QA REVIEW, REVISION REQUIRED, BLOCKED, AWAITING CRISTIAN, APPROVED, HANDOFF.
 QA results: NOT RUN, SELF-CHECK ONLY, REVIEWER NEEDED, FAIL, PASS.
 No downstream task starts on a QA result alone.
+
+- Next department and exact task:
+- Forwarding prompt path and status:
+- Approval evidence needed to change draft to READY:
+- Correction/reviewer routing if QA does not pass:

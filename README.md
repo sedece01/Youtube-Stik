@@ -31,3 +31,7 @@ Original illustrated educational videos, planned around 20 minutes, with a hook 
 This is a documented production workflow, not an installed autonomous production service. No paid tools, background jobs or publishing integrations are configured. GitHub stores instructions and records; generation, narration, editing and publishing need separately configured tools and approvals.
 
 This repository is public. Keep confidential material and large media outside it in the storage selected during S05.
+
+## QA and department handoffs
+
+Read [QA summary](QA_SUMMARY.md). Every task includes a draft forwarding prompt; after approval the team supplies the ready version. Use [the handoff template](templates/department_handoff.md). The [S01 start prompt](handovers/NEXT_S01.md) is prepared for when Cristian authorises channel setup.

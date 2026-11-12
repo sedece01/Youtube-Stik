@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.2 — 12 November 2026
+
+- Added plain-language QA summary and department check matrix.
+- Required populated next-department prompts at every task submission and after approval.
+- Distinguished draft, ready, review-needed and correction handoffs.
+- Added department routing and input/version/approval verification requirements.
+- Prepared a draft S01 start prompt without starting channel production.
+
+
 ## 1.1 — 12 November 2026
 
 - Added repository entry instructions and truthful project/approval status.

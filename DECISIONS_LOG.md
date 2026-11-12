@@ -8,3 +8,7 @@
 - Preserve the user's requirements: original identity, deep research by each department, roughly 20-minute videos, maximum five-second hook, QA plus user approval per task, automation development, daily release ambition.
 - SOP improvements: resolve pilot dependencies; distinguish self-check from independent QA; separate acceptance from permission to continue; define version-specific approval evidence, budget limits and recovery.
 - No channel name/identity, episode topic, supplier, spend or publication decision has been approved.
+
+## 2026-11-12 — QA summary and department prompts
+
+Cristian requested a QA summary and updated content providing a prompt after each task for forwarding to the specific next department. Implementation: automatically include a populated draft prompt at submission, then finalise with actual approval evidence. Route failed work to correction and missing QA to review. Preserve all approval stops; no setup or episode task is approved by this maintenance request.

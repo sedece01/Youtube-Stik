@@ -14,3 +14,5 @@ Read in order: README.md, YOUTUBE_PRODUCTION_TEAM_SOP.md, PROJECT_STATUS.md, APP
 - Updates to SOPs/templates are maintenance, not permission to run S01 or an episode.
 - At handover update PROJECT_STATUS.md and relevant records truthfully. Do not mark a proposal approved.
 - Do not run paid services or publish without the applicable explicit authorisation.
+
+- At every task submission include a brief QA summary and a populated copy-ready prompt for the specific next department, following SOP Section 19 and templates/department_handoff.md. Draft it before approval; finalise only with verified approvals. On QA failure route to correction; on missing reviewer route to QA. Never execute the next task merely because you wrote the prompt.

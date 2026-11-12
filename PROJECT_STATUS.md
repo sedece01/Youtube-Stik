@@ -2,7 +2,7 @@
 
 Updated: 12 November 2026
 Repository: sedece01/Youtube-Stik
-SOP: version 1.1
+SOP: version 1.2
 
 ## Current state
 
@@ -26,3 +26,7 @@ Documentation only (automation Level 0). No media generation, voice API, rendere
 ## Handover
 
 Read AGENTS.md and the SOP before production. Use templates/task.md and templates/qa_report.md. Maintain explicit approvals and actual evidence. Do not infer approval from the presence of files.
+
+## Latest maintenance
+
+Added QA_SUMMARY.md and mandatory department forwarding prompts at Cristian's request. This is a documentation update, not authorisation to begin S01. Next prompt: handovers/NEXT_S01.md (draft; requires Cristian's start instruction).
