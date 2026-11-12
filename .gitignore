@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+secrets/
+private/
+media/
+exports/
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.zip
+__pycache__/
